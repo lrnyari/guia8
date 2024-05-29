@@ -38,6 +38,7 @@ def generar_nros_al_azar(cantidad: int, desde: int, hasta: int) -> Pila:
 mi_pila = Pila()
 mi_pila.put(2)
 mi_pila.put(8)
+mi_pila.put(9)
 
 print(contar_elementos_pila(mi_pila))
 print(contar_elementos_pila(mi_pila))
